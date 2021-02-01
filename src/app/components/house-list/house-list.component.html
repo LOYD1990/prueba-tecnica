@@ -1,0 +1,8 @@
+
+<div class="container">
+    <house-details *ngFor="let house of houses" [details]="house"> </house-details>
+    
+</div>
+<div class="button-block">
+    <button class="button" (click)="loadMoreHouses()">Mostrar más</button>
+</div>
